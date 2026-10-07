@@ -3,6 +3,10 @@
 
 XAMPP üzerinde çalışan, PHP ve MariaDB/MySQL tabanlı modern e-ticaret demo uygulaması. Proje; ürün kataloğu, varyant seçimi, sepet, üyelik, adres yönetimi, demo ödeme akışı, sipariş geçmişi ve yönetim paneli özelliklerini içerir.
 
+### Demo Hesabı
+- Kullanıcı Adı: demo
+- Şifre : 123
+
 ## Özellikler
 
 ### Mağaza
