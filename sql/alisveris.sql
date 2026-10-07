@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 07 Eki 2026, 22:40:14
+-- Üretim Zamanı: 07 Eki 2026, 23:05:31
 -- Sunucu sürümü: 10.4.32-MariaDB
 -- PHP Sürümü: 8.2.12
 
@@ -1175,8 +1175,7 @@ CREATE TABLE `kullanici` (
 
 INSERT INTO `kullanici` (`kullanici_id`, `eposta`, `ad`, `soyad`, `username`, `password`, `rol`, `img`) VALUES
 (2, 'efegec@outlook.com', 'Efe', 'Geçkin', 'efe', '$2y$10$69CCJ7zU2hps0ekUFrL.yeJXyuuxtBSDRCnztEuHFTD1K5BI/xJDa', 'admin', 'person.jpg'),
-(3, 'demo@mail.com', 'Demo', 'Test', 'demo', '$2y$10$69CCJ7zU2hps0ekUFrL.yeJXyuuxtBSDRCnztEuHFTD1K5BI/xJDa', 'kullanici', 'person.jpg'),
-(5, 'sedat@mail.com', 'Sedat', 'Geçkin', 'sedat', '$2y$10$69CCJ7zU2hps0ekUFrL.yeJXyuuxtBSDRCnztEuHFTD1K5BI/xJDa', 'kullanici', 'person.jpg');
+(3, 'demo@mail.com', 'Demo', 'Test', 'demo', '$2y$10$69CCJ7zU2hps0ekUFrL.yeJXyuuxtBSDRCnztEuHFTD1K5BI/xJDa', 'admin', 'person.jpg');
 
 -- --------------------------------------------------------
 
