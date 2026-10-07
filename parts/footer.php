@@ -1,0 +1,4 @@
+<footer class="site-footer">
+    <div class="footer-top"><div class="footer-brand"><a class="brand brand-light" href="index.php"><span class="brand-mark">a</span><span>alışveriş<small>teknoloji seçkisi</small></span></a><p>İyi teknoloji, iyi tasarım ve iyi deneyim bir arada.</p></div><div><h3>Keşfet</h3><a href="telefon.php">Akıllı Telefon</a><a href="telefon.php">Tüm ürünler</a><a href="telefon.php?sort=campaign">Fırsatlar</a></div><div><h3>Destek</h3><a href="profil.php">Hesabım</a><a href="sepet.php">Sipariş takibi</a><a href="login.php">Giriş yap</a></div><div class="footer-contact"><span class="eyebrow">Bir sorunuz mu var?</span><a href="mailto:destek@alisveris.local">destek@alisveris.local</a><small>Hafta içi 09:00 — 18:00</small></div></div>
+    <div class="footer-bottom"><span>© <?= date('Y') ?> Alışveriş. Tüm hakları saklıdır.</span><span>Güvenli alışveriş deneyimi için tasarlandı.</span></div>
+</footer>

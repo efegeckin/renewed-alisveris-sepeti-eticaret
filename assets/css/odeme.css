@@ -1,0 +1,134 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    width: 100%;
+    height: 6rem;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+}
+.title{
+    width: auto;
+    font-size: 1;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: green;
+    justify-content: center;
+    font-weight: bolder;
+}
+.title i{
+    font-size: 1.3rem;
+    margin: 0;
+}
+.title h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: auto;
+    padding: 0rem 0.8rem;
+    border-radius: 2rem;
+    font-size: 2.5rem;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    gap: 0.5rem;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.089);
+     transition: box-shadow 0.3s ease-in-out;
+     cursor: pointer;
+}
+.user:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+}
+.user a{
+    color: #333333;
+    text-decoration: none;
+}
+.user span{
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* İcerik */
+.fiyat-row{
+    width: 20%;
+}
+.icerik-row{
+    width: 80%;
+}
+
+
+.sozlesme-text{
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    color: #555555;
+}
+.sozlesme_onay{
+    margin-top: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.adres-degis{
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+.adres-degis:hover{
+    opacity: 1;
+}
+
+.bank-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.bank{
+    width: 9rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.bank:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.bank-img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
